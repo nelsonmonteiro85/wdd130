@@ -1,9 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Courgette&family=Sarabun:wght@300&display=swap');
 
-:root {
-    --heading-font: "Courgette";
-    --paragraph-font: Sarabun, Helvetica, sans-serif;
-}
 
 #content {
     max-width: 1600px;
@@ -11,10 +7,11 @@
 }
 
 body {
-    background-color: #0DB3DE;
-    color: #080B0D;
+    background-color: #FFFFFF;
+    color: #080B0D; font-family: Sarabun, Helvetica, sans-serif;
 }
 
+h1, h2, h3, h4, h5, h6 {font-family: "Courgette";}
 
 header {
     background: black;
@@ -28,7 +25,7 @@ header {
 
 nav {
     background-color: #ED701D;
-    padding: 10px;
+    padding: 10px; font-family: "Courgette";
 }
 
 nav a {
@@ -63,8 +60,8 @@ h4 {
 
 .book:hover,
 .join:hover {
-    background-color: #080B0D;
-    color: #ED701D;
+ background-color: #ED701D;
+    color: #74FF55;
 }
 
 .icon {
@@ -88,7 +85,7 @@ h4 {
 
 main section {
     text-align: center;
-    background-color: #0DB3DE;
+    background-color: #74FF55;
 }
 
 .msg {
@@ -116,7 +113,7 @@ footer a {
 
 footer a:hover {
     background-color: #ED701D;
-    color: #080B0D;
+    color: #74FF55;
 }
 
 footer p {
