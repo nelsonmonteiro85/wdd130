@@ -6,10 +6,10 @@ Fonts are separated by a & */
 
 :root {
   /* change the values below to your colors from your palette */
-  --primary-color: #ED701D   ;
-  --secondary-color: #74FF55 ;
+  --primary-color: #818663;
+  --secondary-color: #66adbf;
   --accent1-color: #080B0D;
-  --accent2-color: #FFFFFF;
+  --accent2-color: #eff4fc;
 
   /* change the values below to your chosen font(s) */
   --heading-font: "Courgette";
@@ -20,10 +20,10 @@ Fonts are separated by a & */
   --headline-color-on-color: #080B0D; /* headlines on a colored background */ 
   --paragraph-color-on-white: #080B0D; /* paragraph text on a white background */ 
   --paragraph-color-on-color: #080B0D; /* paragraph text on a colored background */ 
-  --paragraph-background-color: #ED701D  ;
+  --paragraph-background-color: #66adbf  ;
   --nav-link-color: #080B0D;
-  --nav-background-color: #ED701D;
-  --nav-hover-link-color: #ED701D;
+  --nav-background-color: #66adbf;
+  --nav-hover-link-color: #66adbf;
   --nav-hover-background-color: #080B0D;
 }
 
