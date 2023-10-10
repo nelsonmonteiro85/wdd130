@@ -53,7 +53,7 @@ h4 {
 
 .book,
 .join {
-    background-color: #66ADBF;
+    background-color: #818663;
     color: #080B0D;
     text-decoration: none;
 }
@@ -61,7 +61,7 @@ h4 {
 .book:hover,
 .join:hover {
  background-color: #080B0D;
-    color: #66ADBF;
+    color: #818663;
 }
 
 .icon {
