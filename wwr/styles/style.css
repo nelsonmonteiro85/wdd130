@@ -8,7 +8,7 @@
 
 body {
     background-color: #EFF4FC;
-    color: #080B0D; font-family: Sarabun, Helvetica, sans-serif;
+    color: #080B0D; font-family: Sarabun, Helvetica, sans-serif; font-size: 22px;
 }
 
 h1, h2, h3, h4, h5, h6 {font-family: "Courgette";}
@@ -40,7 +40,7 @@ nav a:hover {
 }
 
 .home-title {
-    color: #080B0D;
+    color: #080B0D; font-size: 2em;
 }
 
 #hero-img {
@@ -55,7 +55,7 @@ h4 {
 .join {
     background-color: #818663;
     color: #080B0D;
-    text-decoration: none;
+    text-decoration: none; font-size: 18px;
 }
 
 .book:hover,
@@ -89,7 +89,7 @@ main section {
 
 .msg {
     background-color: #66ADBF;
-    color: #1A1916;
+    color: #1A1916; line-height: 1.5em;
 }
 
 .msg h2 {
@@ -97,7 +97,7 @@ main section {
 }
 
 .msg p {
-    color: #080B0D;
+    color: #080B0D; font-size: .8em;
 }
 
 footer {
