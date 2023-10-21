@@ -1,22 +1,29 @@
+*, *:before, *:after {
+    box-sizing: border-box;
+}
 body {
-    background-color: rgb(99, 98, 98);
+    margin: 0;
+    padding: 3em 0;
+    margin: 0 auto;
+    max-width: 910px;
 }
 
-#container {
-    max-width: 1280px;
-    margin: 40px auto;
-}
-
-.title-img {
-    width: 100%
-}
-
-.row-img {
+body>img {
     width: 100%;
+    margin: 0;
+}
+
+.images {
     display: inline-block;
-    width: calc((var(--max-width) / 3) - (var(--padding) * 2 ) - (var(--margin) * 2 ) - (var(--border) * 2 ));
-    margin: var(--margin);
+    background-color: #737373;
+    padding: 0;
+    margin: -5px 0 0 0;
+}
+
+.images img {
+   
     border-radius: 50%;
-    border: 8px solid #453939;
-    padding: 18px;
+    border: 10px solid #434343;
+    margin: 50px;
+    width: 200px;
 }
