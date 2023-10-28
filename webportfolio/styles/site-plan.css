@@ -5,13 +5,13 @@ Fonts are separated by a | */
 
 :root {
   /* change the values below to your colors from your palette */
-  --primary-color: #2e3641   ;
+  --primary-color: #2e3641;
   --secondary-color: #36FFD6 ;
   --accent1-color: #FF7700;
   --accent2-color: #FFFFFF;
 
   /* change the values below to your chosen font(s) */
-  --heading-font: "Audiowide";
+  --heading-font: "Audiowide", sans-serif;
   --paragraph-font: "Allerta Stencil", sans-serif;
 
   /* these colors below should be chosen from among your palette colors above */
