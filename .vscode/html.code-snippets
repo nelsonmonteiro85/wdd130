@@ -1,0 +1,16 @@
+{
+	"html5 autocomplete": {
+		"prefix": "html5",
+		"scope": "html",
+		"body": [
+			"<!DOCTYPE html>",
+			"<html lang=\"en\">",
+			"<head>",
+			" <title>$0</title>",
+			"</head>",
+			"<body>",
+			"</body>",
+			"</html>"
+		]
+	}
+}

@@ -1,0 +1,10 @@
+{
+	"for-i loop": {
+	"prefix": "fori",
+	"scope": "javascript, typescript",
+	"body": [
+		"for(let i = 0; i < $0; i++){",
+		"}"
+		]
+	}
+}
