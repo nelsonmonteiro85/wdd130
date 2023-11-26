@@ -177,23 +177,24 @@ footer {
         display: block;
     }
 
-    .logo {
-        width: 30%;
-        margin-left: 110px;
-    }
-
-    nav {
+    nav, footer {
+        flex-direction: column;
         text-align: center;
     }
 
-    nav, footer {
-        flex-direction: column;
+    .logo {
+        width: 30%;
+        margin: 0 auto;
+        display: block;
+    }
+
+    nav {
+        margin: 0 auto;
     }
 
     nav a {
         display: block;
-        margin: -12%;
-        margin-left: 35px;
+        margin: 0 auto;
     }
 
     .profile-img {
@@ -204,7 +205,9 @@ footer {
     }
 
     .presentation-msg {
-        margin-left: -100px;
+        padding-left: 0;
+        display:block;
+        align-content: center;
         text-align: center;
         font-size: small;
     }
@@ -230,7 +233,6 @@ footer {
     }
     .fb-icon, .in-icon {
         width: 60%;
-        margin-left: 10px;
     }
 
     .bl-img, .br-img, .tr-img {
