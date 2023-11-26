@@ -66,7 +66,7 @@ header {
 .logo {
     grid-column: 1;
     grid-row: 1;
-    width: 80%;
+    width: 70%;
 }
 
 nav {
@@ -79,6 +79,7 @@ nav {
 }
 
 .nav-item {
+    font-family: "Audiowide", sans-serif;
     padding: 2em;
     color: var(--nav-link-color);
 }
@@ -98,12 +99,12 @@ main {
     max-width: 100%;
     grid-column: 1/13;
     grid-row: 1/8;
-    border: 10px solid #FF7700;
+    border: 6px solid #FF7700;
     border-radius: 10px;
 }
 
 .presentation-msg {
-    grid-column: 7/11;
+    grid-column: 7/12;
     grid-row: 2/3;
     color: #FF7700;
     font-size: larger;
@@ -168,4 +169,72 @@ footer {
 
 .fb, .in {
     margin: 0.5em;
+}
+
+@media screen and (max-width: 900px) {
+    
+    .content, header, nav, main, footer {
+        display: block;
+    }
+
+    .logo {
+        width: 30%;
+        margin-left: 110px;
+    }
+
+    nav {
+        text-align: center;
+    }
+
+    nav, footer {
+        flex-direction: column;
+    }
+
+    nav a {
+        display: block;
+        margin: -12%;
+        margin-left: 35px;
+    }
+
+    .profile-img {
+        max-width: 98%;
+        align-content: center;
+        border: 3px solid #FF7700;
+        border-radius: 10px;
+    }
+
+    .presentation-msg {
+        margin-left: -100px;
+        text-align: center;
+        font-size: small;
+    }
+
+    footer {
+        margin-top: 25px;
+    }
+
+    .copyright {
+        text-align: center;
+        font-size: smaller;
+    }
+
+    .ft-link {
+        display: flex;
+        justify-content: center;
+        font-size: smaller;
+    }
+
+    .social {
+        display: flex;
+        justify-content: center;
+    }
+    .fb-icon, .in-icon {
+        width: 60%;
+        margin-left: 10px;
+    }
+
+    .bl-img, .br-img, .tr-img {
+        display: none;
+    }
+
 }
