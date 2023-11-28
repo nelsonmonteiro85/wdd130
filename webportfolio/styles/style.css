@@ -369,6 +369,7 @@ footer {
 
     nav {
         margin: 0 auto;
+        margin-bottom: 30px;
     }
 
     nav a {
@@ -377,13 +378,13 @@ footer {
     }
 
     .profile-img {
-        max-width: 98%;
         align-content: center;
         border: 3px solid #FF7700;
         border-radius: 10px;
     }
 
     .presentation-msg {
+        margin-top: 20px;
         padding-left: 0;
         display: block;
         align-content: center;
@@ -392,18 +393,20 @@ footer {
     }
 
     footer {
-        margin-top: 25px;
+        margin-top: 50px;
     }
 
     .copyright {
         text-align: center;
         font-size: smaller;
+        margin-bottom: 50px;
     }
 
     .ft-link {
         display: flex;
         justify-content: center;
         font-size: smaller;
+        margin-bottom: 50px;
     }
 
     .social {
