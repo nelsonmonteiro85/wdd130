@@ -133,8 +133,13 @@ main {
     box-shadow: 5px 5px 10px #FF7700, 0 5px 10px #FF7700;
 }
 
+.backgrdp, .mep {
+    text-indent: 10px;
+    letter-spacing: 0.5px;
+}
+
 .me {
-    grid-column: 7/13;
+    grid-column: 6/13;
     grid-row: 2;
 }
 
