@@ -115,7 +115,7 @@ main {
     display: grid;
     grid-template-columns: repeat(12, 1fr);
     grid-template-rows: repeat(2, 1fr);
-    gap: 20px;
+    gap: 40px;
 }
 
 .backgrd {
@@ -127,7 +127,7 @@ main {
     background-color: black;
     color: white;
     font-size: small;
-    text-align: justify;
+    /* text-align: justify; */
     padding: 10px;
     border-radius: 25px 0 0 25px;
     box-shadow: 5px 5px 10px #FF7700, 0 5px 10px #FF7700;
@@ -147,9 +147,9 @@ main {
     background-color: black;
     color: white;
     font-size: small;
-    text-align: justify;
+    /* text-align: justify; */
     padding: 10px;
-    margin-top: -20px;
+    margin-bottom: 20px;
     border-radius: 0 25px 25px 0;
     box-shadow: 5px 5px 10px #FF7700, 0 5px 10px #FF7700;
 }
@@ -173,9 +173,10 @@ main {
     grid-column: 8/13;
     grid-row: 1;
     width: 100%;
+    align-self: start;
     /* position: relative; */
     /* margin: auto; */
-    border-radius: 0 25px 25px 0;
+    /* border-radius: 0 25px 25px 0; */
     box-shadow: 5px 5px 10px #FF7700, 0 5px 10px #FF7700;
     z-index: 2;
 }
@@ -183,12 +184,15 @@ main {
 .slideshow-me {
     grid-column: 1/6;
     grid-row: 2;
-    margin-top: -20px;
+    /* margin-top: -20px; */
+    align-self: center;
     width: 100%;
+    margin-bottom: 20px;
     /* position: relative;
     margin: auto; */
-    border-radius: 25px 0 0 25px;
+    /* border-radius: 25px 0 0 25px; */
     box-shadow: 5px 5px 10px #FF7700, 0 5px 10px #FF7700;
+    z-index: 3;
 }
 
 /* Hide the images by default */
@@ -316,15 +320,17 @@ main {
 .bl-img {
     max-width: 200%;
     grid-column: 1/2;
-    grid-row: 2/3;
-    margin-top: 350%;
+    grid-row: 2/4;
+    align-self: end;
+    /* margin-top: 350%; */
 }
 
 .br-img {
     transform: rotate(270deg);
     max-width: 100%;
     grid-column: 10/13;
-    grid-row: 2/3;
+    grid-row: 2/4;
+    align-self: end;
     margin-top: 83%;
     z-index: -2;
 }
@@ -335,7 +341,7 @@ footer {
     display: grid;
     grid-template-columns: repeat(5, 1fr);
     margin: 50px;
-    margin-top: -100px;
+    /* margin-top: -100px; */
 }
 
 .copyright {
