@@ -50,7 +50,7 @@ h5,
 h6 {
     font-family: "Audiowide", sans-serif;
     background: -webkit-linear-gradient(#36FFD6, #00e0b4);
-    -webkit-background-clip: text;
+    background-clip: text;
     -webkit-text-fill-color: transparent;
 }
 
@@ -149,7 +149,7 @@ main {
     margin: 10px;
     font-family: "Audiowide", sans-serif;
     background: -webkit-linear-gradient(#36FFD6, #00e0b4);
-    -webkit-background-clip: text;
+    background-clip: text;
     -webkit-text-fill-color: transparent;
 }
 
