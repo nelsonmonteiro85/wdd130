@@ -49,9 +49,11 @@ h4,
 h5,
 h6 {
     font-family: "Audiowide", sans-serif;
-    background: -webkit-linear-gradient(#36FFD6, #00e0b4);
-    background-clip: text;
-    -webkit-text-fill-color: transparent;
+    /* color: var(--accent1-color); */
+    background-image: linear-gradient(to bottom, #00e0b4, #36ffD6);
+    -webkit-background-clip: text;
+    color: transparent;
+    display: inline-block;
 }
 
 a {
@@ -148,9 +150,10 @@ main {
 .title {
     margin: 10px;
     font-family: "Audiowide", sans-serif;
-    background: -webkit-linear-gradient(#36FFD6, #00e0b4);
-    background-clip: text;
-    -webkit-text-fill-color: transparent;
+    background-image: linear-gradient(to bottom, #00e0b4, #36ffD6);
+    -webkit-background-clip: text;
+    color: transparent;
+    display: inline-block;
 }
 
 li {
